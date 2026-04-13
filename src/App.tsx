@@ -20,14 +20,14 @@ export default function App() {
       </div>
 
       {/* Main Content */}
-      <main className="relative z-10 max-w-6xl mx-auto space-y-64">
+      <main className="relative z-10 max-w-6xl mx-auto space-y-32 md:space-y-64">
         {/* Hero & About Section */}
         <Hero />
 
         {/* Skills Section */}
         <Section className="!py-0">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold tracking-tight text-white/90">
+          <div className="text-center mb-8 md:mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white/90">
               <span className="bg-gradient-to-r from-brand-purple to-brand-cyan bg-clip-text text-transparent">Tecnologias</span>
             </h2>
             <p className="text-white/40 mt-4">Minha stack e ferramentas de trabalho</p>
@@ -36,9 +36,9 @@ export default function App() {
         </Section>
 
         {/* Dashboard Demonstrations (The Lab) */}
-        <Section className="space-y-96">
-          <div className="text-center mb-32">
-            <h2 className="text-5xl font-bold tracking-tighter mb-6">
+        <Section className="space-y-48 md:space-y-96">
+          <div className="text-center mb-16 md:mb-32">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
               Conheça alguns dos meus <span className="bg-gradient-to-r from-brand-purple to-brand-cyan bg-clip-text text-transparent">projetos</span>
             </h2>
             <p className="text-white/40 text-lg">Projetos reais e experimentações em dados</p>

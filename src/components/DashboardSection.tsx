@@ -11,10 +11,10 @@ export default function DashboardSection({ title, description, image, reversed =
   return (
     <div className={`relative flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-0`}>
       {/* Text Content */}
-      <div className={`flex-1 z-20 space-y-8 ${reversed ? 'lg:text-right lg:-ml-24' : 'lg:text-left lg:-mr-24'}`}>
+      <div className={`flex-1 z-20 space-y-8 text-center ${reversed ? 'lg:text-right lg:-ml-24' : 'lg:text-left lg:-mr-24'}`}>
         <div className="space-y-2">
           <span className="bg-gradient-to-r from-brand-purple to-brand-cyan bg-clip-text text-transparent font-semibold text-sm tracking-wide uppercase">Projeto em Destaque</span>
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
             {title}
           </h2>
         </div>
@@ -23,9 +23,9 @@ export default function DashboardSection({ title, description, image, reversed =
           initial={{ x: reversed ? 50 : -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="glass p-8 rounded-2xl relative lg:w-[115%] shadow-2xl"
+          className="glass p-6 md:p-8 rounded-2xl relative lg:w-[115%] shadow-2xl text-left"
         >
-          <p className="text-white/70 leading-relaxed text-lg">
+          <p className="text-white/70 leading-relaxed text-base md:text-lg">
             {description}
           </p>
         </motion.div>

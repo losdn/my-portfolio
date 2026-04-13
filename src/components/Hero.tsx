@@ -8,8 +8,8 @@ export default function Hero() {
   const fallbackUrl = "https://api.dicebear.com/7.x/initials/svg?seed=Lorraine&backgroundColor=A855F7";
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen pt-[22rem] md:pt-[26rem] pb-20 px-6">
-      <div className="flex flex-col lg:flex-row items-center gap-16 max-w-5xl w-full">
+    <div className="flex flex-col items-center justify-center min-h-screen pt-48 md:pt-[26rem] pb-20 px-6">
+      <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 max-w-5xl w-full">
         
         {/* Profile Image with Premium Lighting */}
         <div className="relative">
@@ -47,18 +47,18 @@ export default function Hero() {
           </motion.div>
 
           {/* Arrow and Hello Text (Portuguese) */}
-          <div className="absolute -top-4 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:-right-80 z-20">
+          <div className="absolute -top-12 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 lg:-right-64 xl:-right-80 z-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 0.8 }}
-              className="relative flex flex-col items-center md:items-start"
+              className="relative flex flex-col items-center lg:items-start"
             >
-              <div className="flex flex-col items-center md:items-start">
-                <span className="font-handwriting text-white text-2xl md:text-3xl whitespace-nowrap mb-1">
+              <div className="flex flex-col items-center lg:items-start">
+                <span className="font-handwriting text-white text-xl md:text-2xl lg:text-3xl whitespace-nowrap mb-1">
                   Olá! Me chamo <span className="text-brand-purple font-bold">Lorraine Santos</span>
                 </span>
-                <svg className="w-16 h-12 text-white/60 -ml-4 md:ml-0" viewBox="0 0 100 60" fill="none">
+                <svg className="w-12 h-10 md:w-16 md:h-12 text-white/60 -ml-4 lg:ml-0" viewBox="0 0 100 60" fill="none">
                   <path 
                     d="M80,5 Q40,5 15,45" 
                     stroke="currentColor" 
@@ -127,7 +127,7 @@ export default function Hero() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="max-w-3xl mt-96 text-center space-y-4"
+        className="max-w-3xl mt-32 md:mt-64 lg:mt-96 text-center space-y-4"
       >
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tight text-white/90">Seja muito bem-vindo(a) ao meu portfólio.</h2>

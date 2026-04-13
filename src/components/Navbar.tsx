@@ -16,8 +16,6 @@ export default function Navbar() {
       >
         {!logoError ? (
           <div className="relative group">
-            {/* Glow effect behind the logo */}
-            <div className="absolute inset-0 bg-brand-purple/20 blur-2xl rounded-full scale-150 opacity-0 group-hover:opacity-100 transition-opacity" />
             <img 
               src={logoUrl} 
               alt="Logo losdn" 

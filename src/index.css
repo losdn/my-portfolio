@@ -19,6 +19,28 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-display;
   }
+
+  /* Custom Scrollbar - Premium Glass Style */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    transition: all 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.4); /* Brand Purple with transparency */
+    background-clip: content-box;
+  }
 }
 
 @layer utilities {

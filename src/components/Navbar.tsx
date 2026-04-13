@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Navbar() {
   const [logoError, setLogoError] = useState(false);
   // Link direto do Imgur para a logo
-  const logoUrl = "https://i.imgur.com/UoYoW0Q.png";
+  const logoUrl = "https://i.imgur.com/JNkyYqU.png";
 
   return (
     <nav className="absolute top-0 left-0 w-full z-50 px-6 py-4 flex justify-center pointer-events-none">
@@ -19,7 +19,7 @@ export default function Navbar() {
             <img 
               src={logoUrl} 
               alt="Logo losdn" 
-              className="h-24 md:h-32 w-auto object-contain relative z-10"
+              className="h-12 md:h-14 w-auto object-contain relative z-10"
               referrerPolicy="no-referrer"
               onLoad={() => console.log("Logo carregada com sucesso")}
               onError={() => {

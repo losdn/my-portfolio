@@ -1,0 +1,10 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo Roxo Arredondado (Cor da Marca) -->
+  <rect x="175" y="50" width="150" height="150" rx="45" fill="#A855F7"/>
+  
+  <!-- Lua Crescente Branca Polida -->
+  <path d="M285 90C265.67 90 250 105.67 250 125C250 144.33 265.67 160 285 160C293.3 160 300.9 157.1 306.8 152.3C296.7 156.1 285.3 154.1 277.4 146.2C269.5 138.3 267.5 126.9 271.3 116.8C266.3 122.7 263.4 130.3 263.4 138.6" fill="white"/>
+
+  <!-- Texto "losdn" -->
+  <text x="250" y="300" text-anchor="middle" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="85" font-weight="400" fill="black" letter-spacing="-2">losdn</text>
+</svg>

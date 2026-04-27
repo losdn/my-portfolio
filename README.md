@@ -2,7 +2,7 @@
 
 Bem-vindo(a) ao repositório do meu portfólio pessoal! Esse projeto foi desenvolvido para servir como uma vitrine interativa para meus estudos e projetos na área de **Dados e BI**.
 
-### 🚀 O Projeto
+### 🚀 Projeto
 O objetivo principal deste site é centralizar a visualização dos meus dashboards de **Power BI** e documentar minha evolução técnica. Utilizei este espaço para aplicar conceitos de UI/UX modernos, garantindo que a análise de dados seja apresentada de forma clara, estratégica e profissional.
 
 Você pode conferir o resultado final aqui: [**losdn.vercel.app**](https://losdn.vercel.app/)

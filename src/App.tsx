@@ -1,8 +1,3 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import DashboardSection from "./components/DashboardSection";
@@ -13,18 +8,14 @@ export default function App() {
   return (
     <div className="relative min-h-screen overflow-x-hidden">
       <Navbar />
-      {/* Background Effects */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-brand-purple/20 blur-[120px]" />
         <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-brand-cyan/20 blur-[120px]" />
       </div>
 
-      {/* Main Content */}
       <main className="relative z-10 max-w-6xl mx-auto space-y-32 md:space-y-64">
-        {/* Hero & About Section */}
         <Hero />
 
-        {/* Skills Section */}
         <Section className="!py-0">
           <div className="text-center mb-8 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white/90">
@@ -35,7 +26,6 @@ export default function App() {
           <Skills />
         </Section>
 
-        {/* Dashboard Demonstrations (The Lab) */}
         <Section className="space-y-48 md:space-y-96">
           <div className="text-center mb-16 md:mb-32">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter mb-6">
@@ -71,7 +61,6 @@ export default function App() {
           />
         </Section>
 
-        {/* Contact Section */}
         <Section id="contact" className="text-center pb-4">
           <div className="mb-20">
             <h2 className="text-5xl font-bold tracking-tighter mb-6">
@@ -110,7 +99,6 @@ export default function App() {
           </div>
         </Section>
 
-        {/* Footer */}
         <footer className="py-4 px-6 border-t border-white/10 text-center">
           <p className="text-white/40 text-sm">
             © {new Date().getFullYear()} Lorraine Santos.

@@ -14,7 +14,6 @@ export default function ProjectCard({ title, description, image, tags }: Project
       transition={{ duration: 0.3 }}
       className="relative w-full overflow-hidden rounded-3xl group"
     >
-      {/* Media */}
       <div className="aspect-video w-full overflow-hidden">
         <img 
           src={image} 
@@ -24,7 +23,6 @@ export default function ProjectCard({ title, description, image, tags }: Project
         />
       </div>
 
-      {/* Overlap Content */}
       <div className="relative z-10 -mt-16 mx-6 mb-6 p-8 rounded-2xl glass">
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag) => (

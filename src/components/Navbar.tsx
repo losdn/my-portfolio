@@ -3,7 +3,6 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [logoError, setLogoError] = useState(false);
-  // Link direto do Imgur para a logo
   const logoUrl = "https://i.imgur.com/JNkyYqU.png";
 
   return (

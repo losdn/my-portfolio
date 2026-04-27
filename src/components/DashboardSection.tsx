@@ -10,7 +10,6 @@ interface DashboardSectionProps {
 export default function DashboardSection({ title, description, image, reversed = false }: DashboardSectionProps) {
   return (
     <div className={`relative flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-0`}>
-      {/* Text Content */}
       <div className={`flex-1 z-20 space-y-8 text-center ${reversed ? 'lg:text-right lg:-ml-24' : 'lg:text-left lg:-mr-24'}`}>
         <div className="space-y-2">
           <span className="bg-gradient-to-r from-brand-purple to-brand-cyan bg-clip-text text-transparent font-semibold text-sm tracking-wide uppercase">Projeto em Destaque</span>
@@ -31,7 +30,6 @@ export default function DashboardSection({ title, description, image, reversed =
         </motion.div>
       </div>
 
-      {/* Image Content */}
       <div className="flex-[1.2] w-full z-10">
         <motion.div 
           whileHover={{ scale: 1.01 }}

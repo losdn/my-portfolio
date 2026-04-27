@@ -11,9 +11,7 @@ export default function Hero() {
     <div className="flex flex-col items-center justify-center min-h-screen pt-48 md:pt-[26rem] pb-20 px-6">
       <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16 max-w-5xl w-full">
         
-        {/* Profile Image with Premium Lighting */}
         <div className="relative">
-          {/* Breathing Lighting Effect (Outside only) */}
           <motion.div 
             animate={{ 
               scale: [1.05, 1.15, 1.05],
@@ -46,7 +44,6 @@ export default function Hero() {
             />
           </motion.div>
 
-          {/* Arrow and Hello Text (Portuguese) */}
           <div className="absolute -top-12 left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 lg:-right-64 xl:-right-80 z-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -73,7 +70,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Text Content */}
         <div className="flex-1 text-center lg:text-left space-y-6 pt-12 md:pt-20">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -121,7 +117,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* About Section (Integrated) */}
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -137,7 +132,7 @@ export default function Hero() {
           </p>
         </div>
         <p className="text-xl text-white/60 leading-relaxed font-light">
-          Formada em Ciência da Computação, especializo-me em dados com ênfase em automação e IA com o objetivo de otimizar processos. Crio dashboards interativos ajudando a visualização de KPIs de forma clara e eficiente.
+          Graduanda em Ciência da Computação (previsão dez/2026), especializo-me em dados com ênfase em automação e IA com o objetivo de otimizar processos. Crio dashboards interativos facilitando a visualização de KPIs de forma clara e eficiente.
         </p>
       </motion.div>
     </div>

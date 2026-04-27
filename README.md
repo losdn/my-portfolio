@@ -7,7 +7,7 @@ O objetivo principal deste site é centralizar a visualização dos meus dashboa
 
 Você pode conferir o resultado final aqui: [**losdn.vercel.app**](https://losdn.vercel.app/)
 
-### 🛠️ Tecnologias de Suporte (Stack)
+### 🛠️ Minha Stack
 Para construir esta interface rápida, animada e responsiva, utilizei:
 - **React + Vite**: Para uma estrutura de desenvolvimento ágil e alta performance.
 - **Tailwind CSS**: Estilização moderna com foco em produtividade e design responsivo.

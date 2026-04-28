@@ -7,7 +7,7 @@ O objetivo principal deste site é centralizar a visualização dos meus dashboa
 
 Você pode conferir o resultado final aqui: [**losdn.vercel.app**](https://losdn.vercel.app/)
 
-### 🛠️ Tecnologias de Suporte (Stack)
+### 🛠️ Minha stack:
 Para construir esta interface rápida, animada e responsiva, utilizei:
 - **React + Vite**: Para uma estrutura de desenvolvimento ágil e alta performance.
 - **Tailwind CSS**: Estilização moderna com foco em produtividade e design responsivo.
@@ -21,8 +21,6 @@ Embora o repositório contenha o código do site, o verdadeiro valor está nos p
 - **Logística Internacional**: Control Tower para monitoramento global de embarques aéreos/marítimos com foco em On Time Delivery (OTD).
 - **Controle de Estoque**: Análise de giro de estoque, curva ABC por SKU e monitoramento de faturamento (YoY) para prever rupturas e excessos.
 - **Gestão Financeira**: Estratégico de fluxo de caixa, com análise detalhada de despesas por centro de custo e margem líquida.
-
-Minha stack:
 - **Power BI & DAX**: Modelagem em esquema estrela (Star Schema) e criação de métricas de performance.
 - **Business Intelligence**: Transformação de dados brutos em insights para tomada de decisão.
 - **Python e Power Query**: Scripts de automação e limpeza de dados (ETL).

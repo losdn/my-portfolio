@@ -17,9 +17,12 @@ Para construir esta interface rápida, animada e responsiva, utilizei:
 
 ### 📊 Foco em Análise de Dados
 Embora o repositório contenha o código do site, o verdadeiro valor está nos projetos apresentados, onde exploro:
-- **Logística Internacional**: Monitoramento de KPIs como *On Time Delivery* (OTD) e gestão de modais.
+- **Logística Nacional**: Otimização de fretes e performance de entregas usando Python para classificação de dados e ArcGIS para inteligência geográfica.
+- **Logística Internacional**: Control Tower para monitoramento global de embarques aéreos/marítimos com foco em On Time Delivery (OTD).
+- **Controle de Estoque**: Análise de giro de estoque, curva ABC por SKU e monitoramento de faturamento (YoY) para prever rupturas e excessos.
+- **Gestão Financeira**: Estratégico de fluxo de caixa, com análise detalhada de despesas por centro de custo e margem líquida.
 - **Business Intelligence**: Transformação de dados brutos em insights para tomada de decisão.
-- **SQL & Python**: Scripts de automação e limpeza de dados (ETL).
+- **Python e Power Query**: Scripts de automação e limpeza de dados (ETL).
 
 ---
 

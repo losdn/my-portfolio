@@ -23,7 +23,7 @@ Embora o repositório contenha o código do site, o verdadeiro valor está nos p
 - **Gestão Financeira**: Estratégico de fluxo de caixa, com análise detalhada de despesas por centro de custo e margem líquida.
 
 Minha stack:
-- **Power BI & DAX**: Modelagem em esquema estrela (Star Schema) e criação de medidas complexas.
+- **Power BI & DAX**: Modelagem em esquema estrela (Star Schema) e criação de métricas de performance.
 - **Business Intelligence**: Transformação de dados brutos em insights para tomada de decisão.
 - **Python e Power Query**: Scripts de automação e limpeza de dados (ETL).
 

@@ -132,7 +132,7 @@ export default function Hero() {
           </p>
         </div>
         <p className="text-xl text-white/60 leading-relaxed font-light">
-          Graduanda em Ciência da Computação (previsão dez/2026), especializo-me em dados com ênfase em automação e IA com o objetivo de otimizar processos. Crio dashboards interativos facilitando a visualização de KPIs de forma clara e eficiente.
+          Graduanda em Ciência da Computação (previsão dez/2026), me especializo em dados com ênfase em automação e IA com o objetivo de otimizar processos. Crio dashboards interativos facilitando a visualização de KPIs de forma clara e eficiente.
         </p>
       </motion.div>
     </div>
